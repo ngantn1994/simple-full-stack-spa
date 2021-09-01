@@ -1,0 +1,22 @@
+{
+  "name": "simple-full-stack-spa",
+  "version": "1.0.0",
+  "description": "simple full stack app for testing purpose",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngantn1994/simple-full-stack-spa.git"
+  },
+  "author": "ngantn1994",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngantn1994/simple-full-stack-spa/issues"
+  },
+  "homepage": "https://github.com/ngantn1994/simple-full-stack-spa#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
