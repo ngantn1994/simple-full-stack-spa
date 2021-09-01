@@ -1,9 +1,18 @@
 const express = require('express');
+const axios = require('axios');
+require('dotenv').config();
+
 const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  axios.get('http://api.openweathermap.org/data/2.5/weather?q=Hanoi&appid=' + process.env.OPEN_WEATHER_APP_ID)
+  .then(function (response) {
+      res.send(JSON.stringify(response.data));
+  })
+  .catch(function (error) {
+      console.log(error);
+  });
 });
 
 app.listen(port, () => {

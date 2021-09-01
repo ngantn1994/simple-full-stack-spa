@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/ngantn1994/simple-full-stack-spa#readme",
   "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1"
   }
 }
