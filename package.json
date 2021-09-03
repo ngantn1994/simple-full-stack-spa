@@ -4,7 +4,11 @@
   "description": "simple full stack app for testing purpose",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "app": "node app.js",
+    "serve": "vue-cli-service serve",
+    "full": "run-p app serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "repository": {
     "type": "git",
@@ -18,7 +22,16 @@
   "homepage": "https://github.com/ngantn1994/simple-full-stack-spa#readme",
   "dependencies": {
     "axios": "^0.21.1",
+    "core-js": "^3.6.5",
     "dotenv": "^10.0.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "npm-run-all": "^4.1.5",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "eslint-plugin-vue": "^7.0.0"
   }
 }
