@@ -1,6 +1,6 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="App logo" src="./assets/logo.png">
+  <HelloWorld msg="Simple open weather API call"/>
 </template>
 
 <script>
@@ -15,12 +15,15 @@ export default {
 </script>
 
 <style>
+body {
+  background: #212121;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #f0f2f2;
   margin-top: 60px;
 }
 </style>
