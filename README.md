@@ -5,6 +5,9 @@ A simple full stack application for test using API/packages, etc.
 
 The idea is to demo a simple api call from back-end to back-end, then front-end will call back-end to get the data.
 
+![image](https://user-images.githubusercontent.com/16540751/132084742-acbe3386-11a5-44f6-ab11-13f9aee025e0.png)
+
+
 ##  1. Init project
 The API used in this example is `openweathermap`, so a API key from `https://openweathermap.org/` is required.
 
