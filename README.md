@@ -1,4 +1,4 @@
-# simple-full-stack-spa
+# A simple Full stack SPA
 A simple full stack application for test using API/packages, etc.
 (Because we can't expose sensitive info to client side, so in many cases API calls must be done from server-side).
 
