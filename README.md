@@ -37,6 +37,7 @@ Node back-end will be up at `http://localhost:3001/`.
 - `npm-run-all`: serve both node server and Vue in 1 call
 - `cors`: allow cors
 - `dotenv`: read values from `.env` file to `process.env` for node server (Vue 3 will auto read value with prefix `VUE_APP_` from `.env`)
+- `axios`: http calls
 
 ## 4. Screenshot
 
